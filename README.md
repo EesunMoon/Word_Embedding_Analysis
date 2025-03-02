@@ -10,7 +10,16 @@ This project is part of the research conducted at the Complex Resilient Intellig
 - Based on Zipf’s Law, analyze word frequency distribution, group the sentences based on cosine similarity, and then apply ranking techniques.
 - Implement ranking techniques to evaluate sentence similarity and relevance.
 - Perform Linear Regression Analysis for statistical modeling and interpretation of embeddings.
-3.	**Context Vector Analysis** (In progress)
+3.	**Context Vector Analysis**
+- Analyze context vectors within transformer-based models, focusing on their extraction and usage in NLP tasks.
+- Investigate where the context vector is located within transformer architectures.
+  - Explore how self-attention mechanisms, hidden states, and intermediate layers contribute to the formation of context vectors.
+- Determine whether the final layer or earlier layers (2nd/3rd) provide a more meaningful context representation.
+  - In BERT-based models, the last hidden state may be overly fine-tuned, while intermediate layers might capture more generalizable contextual information.
+  - Compare context vectors extracted from different layers to identify the optimal representation.
+- Examine the role of context vectors in NLP downstream tasks such as next-word prediction, sentence similarity, and text classification.
+  - Explore how these vectors influence decision-making in transformer models.
+
 -	Analyze contextual relationships between words.
 -	Investigate how context influences word embeddings in different scenarios.
 
